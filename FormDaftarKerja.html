@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html lang="id">
+<head>
+    <title>Form Pendaftaran Kerja</title>
+</head>
+<body>
+	<form action="contact.php" method="POST">
+        <fieldset style="background-color : pink;">
+    <h1>Pendaftaran Kerja</h1>
+    <p>Isilah seluruh kolom dengan <br />sebenar-benarnya.</p>
+    <table>
+    	<tr>
+    	    <td align="top">Nama</td>
+    	    <td><input type="text" name="nama" placeholder="nama lengkap"></td>
+        </tr>
+        <tr>
+    	    <td align="top">No.HP</td>
+    	    <td><input type="text" name="No.HP" placeholder="xxxxxxxxxxxx"></td>
+    	</tr>
+    	<tr>
+    	    <td align="top">Email</td>
+    	    <td><input type="email" name="email" placeholder="user@gmail.com"></td>
+    	</tr>
+    	<tr>
+    	    <td align="top">Jenis Kelamin</td>
+    	    <td>
+    	    	<input type="radio" name="l">Pria<br />
+    	    	<input type="radio" name="p">Perempuan
+    	    </td>
+    	</tr>
+    	<tr>
+    	    <td align="top">Tanggal Lahir</td>
+    	    <td>
+    	       <input type="text" style="width: 25px" placeholder="dd">
+    	       <input type="text" style="width: 25px" placeholder="mm">
+    	       <input type="text" style="width: 50px" placeholder="yyyy">
+    	    </td>
+        </tr>
+    	<tr>
+    	    <td align="top">Negara</td>
+    	    <td><input type="textarea" name="negara" placeholder="Negara tempat tinggal"></td>
+        </tr>
+        <tr>
+    	    <td align="top">Persyaratan</td>
+    	    <td><input type="file" name="Persyaratan" placeholder="pilih file"></td>
+        </tr>
+        <tr>
+    	    <td align="top">Agama</td>
+    	    <td>
+    	        <select>
+    	            <option>--pilih--</option>
+		    <option>Islam</option>
+		    <option>Non Islam</option>
+    	        </select>
+    	    </td>
+        </tr>
+    	<tr>
+    	    <td align="top">Tempat Tinggal</td>
+    	    <td>
+    	        <select>
+    	            <option>--pilih--</option>
+		    <option>Jakarta</option>
+		    <option>Bandung</option>
+		    <option>Bekasi</option>
+		    <option>Bogor</option>
+    	        </select>
+    	    </td>
+        </tr>
+        <tr>
+    	    <td align="top">Penempatan Kerja</td>
+    	    <td>
+    	        <select>
+    	            <option>--pilih--</option>
+		    <option>Jakarta</option>
+		    <option>Bekasi</option>
+    	        </select>
+    	    </td>
+        </tr>
+        <tr>
+    	    <td align="top">Alamat</td>
+    	    <td><textarea placeholder="isilah alamat lengkap anda" cols="30" rows="5"></textarea></td>
+        </tr>
+    	<tr>
+    	    <td align="top">Biografi</td>
+    	    <td><textarea placeholder="isilah biografi singkat anda" cols="30" rows="5"></textarea></td>
+        </tr>
+        <div id="Pekerjaan" >
+            <label for="pekerjaan">Pekerjaan </label>
+        <br>
+        <input type="checkbox" >
+        
+        <label for="">Quality Control</label>
+        <br>
+        <input type="checkbox">
+        
+        <label for="">Admin</label>
+       <br>
+        <input type="checkbox">
+        <label for="">Produksi</label>
+        <br><br>
+        </div>
+        <tr>
+    	    <td colspan="2"><input type="submit" value="Daftar"></td>
+    	</tr>
+    </table>
+</body>
+</html>
